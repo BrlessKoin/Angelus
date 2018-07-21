@@ -6,13 +6,14 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 
-
-<GridPane prefHeight="695.0" prefWidth="1024.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+<GridPane prefHeight="695.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <columnConstraints>
       <ColumnConstraints />
    </columnConstraints>
@@ -80,17 +81,26 @@
       </MenuBar>
       <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #73B0E7;" GridPane.hgrow="ALWAYS" GridPane.rowIndex="3">
          <children>
-            <Button alignment="BOTTOM_CENTER" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Cliente">
+            <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" graphicTextGap="0.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Cliente">
                <HBox.margin>
                   <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
                </HBox.margin>
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="80.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" translateY="-1.0">
+                     <image>
+                        <Image url="@client.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
-            <Button alignment="BOTTOM_CENTER" layoutX="15.0" layoutY="15.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Fornecedor">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
-            <Button alignment="BOTTOM_CENTER" layoutX="98.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Funcionario">
+            <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" graphicTextGap="0.0" layoutX="16.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Fornecedor">
+               <graphic>
+                  <ImageView fitHeight="70.0" fitWidth="80.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" translateY="-1.0">
+                     <image>
+                        <Image url="@supplier.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
                <HBox.margin>
                   <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
                </HBox.margin>
@@ -100,61 +110,6 @@
                   <Insets left="3.0" />
                </HBox.margin>
             </Separator>
-            <Button alignment="BOTTOM_CENTER" layoutX="176.0" layoutY="15.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Productos">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
-            <Button alignment="BOTTOM_CENTER" layoutX="268.0" layoutY="15.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Consulta">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
-            <Separator layoutX="264.0" layoutY="15.0" orientation="VERTICAL" prefHeight="200.0">
-               <HBox.margin>
-                  <Insets left="3.0" />
-               </HBox.margin>
-            </Separator>
-            <Button alignment="BOTTOM_CENTER" layoutX="353.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Serviços">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
-            <Button alignment="BOTTOM_CENTER" layoutX="443.0" layoutY="15.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Consulta">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
-            <Button alignment="BOTTOM_CENTER" layoutX="522.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Relatório">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
-            <Separator layoutX="437.0" layoutY="15.0" orientation="VERTICAL" prefHeight="200.0">
-               <HBox.margin>
-                  <Insets left="3.0" />
-               </HBox.margin>
-            </Separator>
-            <Button alignment="BOTTOM_CENTER" layoutX="608.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Ventas">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
-            <Button alignment="BOTTOM_CENTER" layoutX="699.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Finanzas">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
-            <Button alignment="BOTTOM_CENTER" layoutX="781.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Caixa">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
-            <Button alignment="BOTTOM_CENTER" layoutX="863.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Suporte">
-               <HBox.margin>
-                  <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
-               </HBox.margin>
-            </Button>
          </children>
          <padding>
             <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
