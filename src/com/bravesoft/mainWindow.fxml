@@ -29,47 +29,47 @@
    <children>
       <MenuBar>
         <menus>
-          <Menu mnemonicParsing="false" text="Cadastro">
+          <Menu disable="true" mnemonicParsing="false" text="Cadastro">
             <items>
               <MenuItem mnemonicParsing="false" text="Close" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Estoque">
+          <Menu disable="true" mnemonicParsing="false" text="Estoque">
             <items>
               <MenuItem mnemonicParsing="false" text="Delete" />
             </items>
           </Menu>
-          <Menu mnemonicParsing="false" text="Serviços">
+          <Menu disable="true" mnemonicParsing="false" text="Serviços">
             <items>
               <MenuItem mnemonicParsing="false" text="About" />
             </items>
           </Menu>
-            <Menu mnemonicParsing="false" text="Vendas">
+            <Menu disable="true" mnemonicParsing="false" text="Vendas">
                <items>
                   <MenuItem mnemonicParsing="false" text="About" />
                </items>
             </Menu>
-            <Menu mnemonicParsing="false" text="Compras">
+            <Menu disable="true" mnemonicParsing="false" text="Compras">
                <items>
                   <MenuItem mnemonicParsing="false" text="About" />
                </items>
             </Menu>
-            <Menu mnemonicParsing="false" text="Financeiro">
+            <Menu disable="true" mnemonicParsing="false" text="Financeiro">
                <items>
                   <MenuItem mnemonicParsing="false" text="About" />
                </items>
             </Menu>
-            <Menu mnemonicParsing="false" text="Relatório">
+            <Menu disable="true" mnemonicParsing="false" text="Relatório">
                <items>
                   <MenuItem mnemonicParsing="false" text="About" />
                </items>
             </Menu>
-            <Menu mnemonicParsing="false" text="Ferramentas">
+            <Menu disable="true" mnemonicParsing="false" text="Ferramentas">
                <items>
                   <MenuItem mnemonicParsing="false" text="About" />
                </items>
             </Menu>
-            <Menu mnemonicParsing="false" text="Ajuda">
+            <Menu disable="true" mnemonicParsing="false" text="Ajuda">
                <items>
                   <MenuItem mnemonicParsing="false" text="About" />
                </items>
@@ -93,7 +93,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" graphicTextGap="0.0" layoutX="16.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Fornecedor">
+            <Button alignment="BOTTOM_CENTER" contentDisplay="TOP" disable="true" graphicTextGap="0.0" layoutX="16.0" layoutY="16.0" maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="80.0" text="Fornecedor">
                <graphic>
                   <ImageView fitHeight="70.0" fitWidth="80.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true" translateY="-1.0">
                      <image>
